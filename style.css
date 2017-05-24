@@ -1,0 +1,134 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'OpenSansHebrew', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+    color: #101115;
+    background-color: #fff;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    height: 100vh;
+}
+
+.clearfix:after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+button {
+    font-size: 18px;
+    width: 100%;
+    height: 36px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #e3e0cc;
+    border: 1px solid buttonface;
+    border-radius: 5px;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #9fa9a3;
+    position: fixed;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.left-clmn {
+    width: 35%;
+    height: 100%;
+    padding: 90px 30px 30px;
+    background-color: #c5d5c5;
+    float: left;
+}
+
+.right-clmn {
+    width: 65%;
+    height: 100%;
+    padding: 90px 30px 30px;
+    background-color: #f0f0f0;
+    float: left;
+}
+
+.form-group {
+    margin-bottom: 23px;
+}
+
+.form-label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.details-secondary {
+    display: none;
+}
+
+.profile-pic {
+    width: 315px;
+    height: 315px;
+
+    float: left;
+    margin-right: 30px;
+}
+
+.details {
+    float: left;
+}
+
+.details-name {
+    margin-bottom: 23px;
+}
+
+.details-item {
+    margin-bottom: 15px;
+}
