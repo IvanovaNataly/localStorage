@@ -1,4 +1,4 @@
-cl = console.log;
+
 
 class UserService {
     sendToLocalSt(data) {
@@ -53,7 +53,6 @@ class FormComp {
         this.$url = $("#url");
         this.$rating = $("#rating"); 
         this.$get =  $("#get");
-        
     }
 
     getName() {
@@ -96,13 +95,11 @@ class FormComp {
         let localState = service.getFromLocalSt(itemName); 
         
         if (!localState) {
-            cl("No item");
             this.secondaryOpen();
             $("#get").off("click");
             $("#get").on("click", this.receiveData.bind(this));
         }
         else {
-            cl("Item");
             let userData = service.getFromLocalSt(itemName);
             this.onCallback(userData);; //obj
         }
